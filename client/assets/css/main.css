@@ -2582,8 +2582,8 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
-			width: calc(33.33333% - 2.5em);
-			margin: 2.5em 0 0 2.5em;
+			width: calc(46%);	/* this code forces it into a cube */
+			margin: 2.5em 0 0 2.6em;
 		}
 
 			.tiles article > .image {
@@ -2706,27 +2706,27 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: #232529;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
+				background-color: #232529;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
+				background-color: #232529;
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
+				background-color: #232529;
 			}
 
 			.tiles article.style5 > .image:before {
-				background-color: #ae85ca;
+				background-color: #232529;
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+				background-color: #232529;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
@@ -3149,7 +3149,13 @@ input, select, textarea {
 		}
 
 /* Main */
-
+/*
+	.boxed {
+	  border: 2px solid green ;
+	  border-color: #18191c;
+	  padding: 0 0 0 4em;
+	}
+*/
 	#main {
 		padding: 0em 0 6em 0 ;
 	}
@@ -3166,7 +3172,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 5em 0 6em 0 ;
-		background-color: #f6f6f6;
+		background-color: #232529;
 	}
 
 		#footer > .inner {
